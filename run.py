@@ -3,7 +3,7 @@
 The sinking ships 
 
 """
-
+import streamlit as st
 from random import randint
 import time
 import os
