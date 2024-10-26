@@ -174,5 +174,13 @@ def play_again():
     else:
         exit()
 
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Welcome to the Sinking Ships Game!"
+
 if __name__ == "__main__":
     start_menu()
